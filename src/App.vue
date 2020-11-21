@@ -17,7 +17,7 @@ export default {
   },
   data() {
     return {
-      isMobile: isMobile()
+      isMobile: false
     }
   },
 }

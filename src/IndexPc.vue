@@ -60,8 +60,8 @@ export default {
   data() {
     return {
       options: {
-        flv: 'https://spr-mdl-1300685592.cos.ap-bangkok.myqcloud.com/path1/spr_cos_hls.m3u8',
-        m3u8: 'https://spr-mdl-1300685592.cos.ap-bangkok.myqcloud.com/path1/spr_cos_hls.m3u8',
+        flv: 'http://live.thairath.xyz/live/hubba.m3u8',
+        m3u8: 'http://live.thairath.xyz/live/hubba.m3u8',
         autoplay: true,
         width: '100%',
         height: 'auto',
