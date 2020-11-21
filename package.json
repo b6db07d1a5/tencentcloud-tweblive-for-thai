@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node --max_old_space_size=4096 node_modules/@vue/cli-service/bin/vue-cli-service.js serve --open",
-    "serve": "node node_modules/@vue/cli-service/bin/vue-cli-service.js serve",
+    "serve": "node node_modules/@vue/cli-service/bin/vue-cli-service.js serve --port 80",
     "build": "node node_modules/@vue/cli-service/bin/vue-cli-service.js build",
     "archive": "node check-tweblive-version.js && node archive.js",
     "lint": "node node_modules/@vue/cli-service/bin/vue-cli-service.js lint src --ext .vue,.js --fix"
